@@ -7,7 +7,6 @@ import "./navigation.styles.scss";
 const Navigation = () => {
   return (
     <Fragment>
-      <Outlet />
       <div className="navigation">
         <Link className="logo-container" to="/">
           <CrwnLogo className="logo" />
@@ -18,6 +17,7 @@ const Navigation = () => {
           </Link>
         </div>
       </div>
+      <Outlet />
     </Fragment>
   );
 };
