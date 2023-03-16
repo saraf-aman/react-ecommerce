@@ -17,6 +17,7 @@ const Navigation = () => {
           </Link>
         </div>
       </div>
+      <Outlet />
     </Fragment>
   );
 };
