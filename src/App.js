@@ -1,35 +1,25 @@
-import CategoryMenu from "./components/category-menu/category-menu.component";
+import { Routes, Route } from "react-router-dom";
+import Navigation from "./routes/navigation/navigation.component";
+
+import Home from "./routes/home/home.component";
+
+const Shop = () => {
+  return (
+    <div>
+      <h1>Shop</h1>
+    </div>
+  );
+};
 
 const App = () => {
-  const categories = [
-    {
-      id: 1,
-      title: "Cloths",
-      imageUrl: "https://i.ibb.co/px2tCc3/jackets.png",
-    },
-    {
-      id: 2,
-      title: "Books",
-      imageUrl: "https://i.ibb.co/HC8WLfS/book.png",
-    },
-    {
-      id: 3,
-      title: "Sneakers",
-      imageUrl: "https://i.ibb.co/0jqHpnp/sneakers.png",
-    },
-    {
-      id: 4,
-      title: "Electronics",
-      imageUrl: "https://i.ibb.co/9bj2LfR/electronics.png",
-    },
-    {
-      id: 5,
-      title: "Sports",
-      imageUrl: "https://i.ibb.co/1nwWwVd/sports.png",
-    },
-  ];
-
-  return <CategoryMenu categories={categories} />;
+  return (
+    <Routes>
+      <Route path="/" element={<Navigation />}>
+        <Route index element={<Home />} />
+        <Route path="shop" element={<Shop />} />
+      </Route>
+    </Routes>
+  );
 };
 
 export default App;
