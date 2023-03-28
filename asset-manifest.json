@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/vt-isa/static/css/main.073c9b0a.css",
+    "main.js": "/vt-isa/static/js/main.8a15eaa6.js",
+    "static/js/787.10b355a4.chunk.js": "/vt-isa/static/js/787.10b355a4.chunk.js",
+    "static/media/logo.svg": "/vt-isa/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/vt-isa/index.html",
+    "main.073c9b0a.css.map": "/vt-isa/static/css/main.073c9b0a.css.map",
+    "main.8a15eaa6.js.map": "/vt-isa/static/js/main.8a15eaa6.js.map",
+    "787.10b355a4.chunk.js.map": "/vt-isa/static/js/787.10b355a4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.8a15eaa6.js"
+  ]
+}
