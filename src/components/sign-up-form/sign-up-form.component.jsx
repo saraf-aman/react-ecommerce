@@ -42,6 +42,7 @@ const SignUpForm = () => {
         email,
         password
       );
+
       await createUserDocumentFromAuth(user, { displayName });
       resetFormFields();
       alert("Account Successfully Created");
