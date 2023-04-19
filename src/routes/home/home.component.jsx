@@ -1,31 +1,59 @@
 import CategoryMenu from "../../components/category-menu/category-menu.component";
 
 const Home = () => {
+  // const categories = [
+  //   {
+  //     id: 1,
+  //     title: "Cloths",
+  //     imageUrl: "https://i.ibb.co/px2tCc3/jackets.png",
+  //   },
+  //   {
+  //     id: 2,
+  //     title: "Books",
+  //     imageUrl: "https://i.ibb.co/HC8WLfS/book.png",
+  //   },
+  //   {
+  //     id: 3,
+  //     title: "Sneakers",
+  //     imageUrl: "https://i.ibb.co/0jqHpnp/sneakers.png",
+  //   },
+  //   {
+  //     id: 4,
+  //     title: "Electronics",
+  //     imageUrl: "https://i.ibb.co/9bj2LfR/electronics.png",
+  //   },
+  //   {
+  //     id: 5,
+  //     title: "Sports",
+  //     imageUrl: "https://i.ibb.co/1nwWwVd/sports.png",
+  //   },
+  // ];
+
   const categories = [
     {
       id: 1,
-      title: "Cloths",
-      imageUrl: "https://i.ibb.co/px2tCc3/jackets.png",
+      title: "hats",
+      imageUrl: "https://i.ibb.co/cvpntL1/hats.png",
     },
     {
       id: 2,
-      title: "Books",
-      imageUrl: "https://i.ibb.co/HC8WLfS/book.png",
+      title: "jackets",
+      imageUrl: "https://i.ibb.co/px2tCc3/jackets.png",
     },
     {
       id: 3,
-      title: "Sneakers",
+      title: "sneakers",
       imageUrl: "https://i.ibb.co/0jqHpnp/sneakers.png",
     },
     {
       id: 4,
-      title: "Electronics",
-      imageUrl: "https://i.ibb.co/9bj2LfR/electronics.png",
+      title: "womens",
+      imageUrl: "https://i.ibb.co/GCCdy8t/womens.png",
     },
     {
       id: 5,
-      title: "Sports",
-      imageUrl: "https://i.ibb.co/1nwWwVd/sports.png",
+      title: "mens",
+      imageUrl: "https://i.ibb.co/R70vBrQ/men.png",
     },
   ];
 
