@@ -20,7 +20,7 @@ export const CategoriesProvider = ({ children }) => {
       setCategoriesMap(categoryMap);
     };
     getCategoriesMap();
-  });
+  }, []);
 
   // useEffect(() => {
   //   addCollectionAndDocuments("categories", SHOP_DATA);
